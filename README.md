@@ -1,4 +1,4 @@
-#Project: Data Warehouse
+# Project: Data Warehouse
  
 A music streaming startup, Sparkify, has grown their user base and song database and 
 want to move their processes and data onto the cloud. Their data resides in S3, in a 
@@ -18,8 +18,8 @@ and analytics.
 - The **songplays** is the fact table.
 - Dimension tables: **users**, **songs**, **artists**, **time**
 
-## The implementation is designed to run in the following order.##
-All python scripts should be run in the **terminal window**.
+## The implementation is designed to run in the following order.
+All python scripts should be run in the **terminal window**. All empty fields in "dwh.cfg" file should be populated with relevant for your project values.
 
 1.Create the Redshift cluster. A test connection will be established after the 
 cluster is created. Note that sometimes a cluster might have status "Unavailable". 
